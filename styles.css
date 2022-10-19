@@ -255,10 +255,10 @@ body{
     display:none
 }
 .page-wrapper.a4 .page{
-    height:1123px
+    width: 100%;
 }
 .page-wrapper.letter .page{
-    height:1056px
+    width: 100%;
 }
 .page-wrapper .linkified,.page-wrapper .linkified:hover{
     color:inherit
@@ -887,4 +887,19 @@ body{
 }
 .cv-wrapper .page-wrapper .page:first-child{
     margin-top:40px
+}
+
+@media print {
+    @page {
+        margin: 0
+    }
+    .customize-preview .page-wrapper .page{
+        box-shadow: none;
+        margin-bottom:0px
+    }
+    .cv-wrapper .page-wrapper .page{
+        box-shadow: none;
+        page-break-after: always;
+        margin-bottom:0px
+    }
 }
