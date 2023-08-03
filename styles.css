@@ -95,6 +95,10 @@
 .fs .template.fs-15 a,.fs .template.fs-15 b,.fs .template.fs-15 del,.fs .template.fs-15 div,.fs .template.fs-15 em,.fs .template.fs-15 ins,.fs .template.fs-15 li,.fs .template.fs-15 mark,.fs .template.fs-15 ol,.fs .template.fs-15 p,.fs .template.fs-15 s,.fs .template.fs-15 small,.fs .template.fs-15 strong,.fs .template.fs-15 sub,.fs .template.fs-15 sup,.fs .template.fs-15 u,.fs .template.fs-15 ul{
     font-size:15px!important
 }
+.template.fs-15 small {
+    color: #27645EFF!important;
+    font-size:80%!important
+}
 .fs .template.fs-15 .headline .background-wrapper .text{
     font-size:inherit
 }
@@ -404,6 +408,10 @@ body{
 }
 .template.fs-15 a,.template.fs-15 b,.template.fs-15 del,.template.fs-15 div,.template.fs-15 em,.template.fs-15 ins,.template.fs-15 li,.template.fs-15 mark,.template.fs-15 ol,.template.fs-15 p,.template.fs-15 s,.template.fs-15 small,.template.fs-15 strong,.template.fs-15 sub,.template.fs-15 sup,.template.fs-15 u,.template.fs-15 ul{
     font-size:15px!important
+}
+.template.fs-15 small {
+    color: #27645EFF!important;
+    font-size:80%!important
 }
 .template.fs-15 .headline .background-wrapper .text{
     font-size:inherit
